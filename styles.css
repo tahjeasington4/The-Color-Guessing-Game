@@ -1,0 +1,57 @@
+body { 
+background-color: rgb(35, 35, 35);
+}
+h1 {
+color: white;
+text-align: center;
+background: steelblue;
+font-weight: normal;
+}
+
+.S1{
+width: 30%;
+background-color: purple;
+padding-top: 30%;
+margin: 1.66%;
+border-radius: 15%;
+}
+.container{
+display: flex;
+max-width: 600px;
+margin: auto;
+}
+#stripe {
+background: white;
+height: 30px;
+text-align: center;
+color: black;
+}
+.selected {
+text-align: center;
+height: 30px;
+color: white;
+background: steelblue;
+}
+button {
+border: none; 
+background: none; 
+outline: none;
+text-transform: uppercase; 
+height: 100%; 
+font-weight: bold; 
+color: steelblue; 
+letter-spacing: 1px; 
+font-size: inherit;
+transition: all 0.3s;    
+}
+button:hover {
+color: white;
+background: steelblue;
+}
+
+
+/* Give your divs (except the container) a width of 30%  
+and a background color of purple.  Now add either a 
+padding-top or padding-bottom of 30% to the div class 
+you created in Step #2. */
+
